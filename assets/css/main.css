@@ -2374,7 +2374,7 @@ input, select, textarea {
 
 	@media screen and (min-width: 880px) {
 		article.layout {
-			width: 50%;
+			width: 65%;
 		}
 		.carousel-container {
 	    width: 100%;
@@ -2872,7 +2872,7 @@ article.layout {
 }
 .carousel-container {
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     overflow: hidden; /* Esconde as imagens que estão fora da área visível */
 }
@@ -2883,8 +2883,7 @@ article.layout {
 }
 
 .carousel img {
-    width: auto;      /* Faz com que a imagem ocupe 100% da largura do contêiner */
-    height: auto;
+    height: 400px;
     object-fit: cover; /* Faz com que a imagem preencha a largura do carrossel */
     flex-shrink: 0;    /* Impede que as imagens encolham */
 }
