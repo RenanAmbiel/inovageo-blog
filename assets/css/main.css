@@ -2374,10 +2374,10 @@ input, select, textarea {
 
 	@media screen and (min-width: 880px) {
 		article.layout {
-			width: 74%;
+			width: 50%;
 		}
 		.carousel-container {
-	    width: 74%;
+	    width: 100%;
 		}
 		#sidebar2 {
 			    overflow: hidden;
